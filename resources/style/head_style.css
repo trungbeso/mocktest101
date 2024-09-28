@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.uk-container-1520 {
+  max-width: 1520px;
+}
+.uk-container-1250{
+  max-width: 1250px;
+}
+:root {
+  --smooth: all .2s ease-in;
+  --blue: #008deb;
+  --l-blue: rgb(22, 127, 197);
+}
+/*CORE*/
+
+
+/* GENERAL*/
+
+
+
+/* HEADER */
+.header-top{
+  flex-wrap: wrap;
+  background: #000;
+  margin: 0 auto;
+  padding: 5px 130px;
+}
+
+.header-top a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.header-top span {
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.header-bot {
+  margin: 0 auto;
+  padding: 10px 130px;
+}
+
+.header-logo img {
+  width: 45px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.input-text {
+  width: 17rem;
+  transform: translateX(670px);
+  height: 45px;
+  outline: none;
+  border: none;
+  padding: 15px ;
+  border-radius: 25px;
+  background-color: rgb(241, 238, 238);
+  z-index: 1;
+  margin-left: 30px;
+  transition: var(--smooth);
+}
+
+
+.header-search{
+  position: relative;
+}
+.header-btn {
+  position: absolute;
+  top: 12px;
+  right: -175px;
+  z-index: 2;
+  width: 50px;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header-widget .widget-item {
+  color: #000;
+  padding: 12px;
+  position: relative;
+  transform: translateX(90px);
+}
+
+.widget-item .cart-count {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  background-color: rgb(49, 49, 248);
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 16px;
+  font-size: 12px;
+}
+
+.user-pic {
+  width: 50px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.navbar__links,
+.navbar__link {
+  position: relative;
+  text-decoration: none;
+  background-color: none;
+  top: -17px;
+  text-decoration: none;
+  
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  z-index: 1;
+  transform: translateX(-100px);
+  cursor: pointer;
+}
+.navbar__links > 
+.navbar__link:not(:last-child){
+  padding-left: 35px;
+}
+.navbar__links a {
+  cursor: pointer;
+}
+
+.navbar__btn {
+  position: relative;
+  top: -17px;
+  margin-left: 20px;
+  border: 2px solid var(--blue);
+  background-color: transparent;
+  padding: 5px 15px;
+  border-radius: 25px;
+  color: var(--blue);
+  font-weight: bold;
+  transform: translateX(0);
+  cursor: pointer;
+}
+
+.input-toggle{
+  transition: var(--smooth);
+  width: 48rem;
+  transform: translateX(-10px);
+  transform: translateY(5px);
+  z-index: 3;
+}
+.hidden {
+  transform: translateX(-175px);
+  transition: var(--smooth);
+}
+.transList {
+  opacity: 0;
+  transition: var(--smooth);
+}
+
+.header-slide img {
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.header-slide{
+  max-height: 500px;
+}
+
+.uk-slideshow-items { 
+  height: 100%;
+}
